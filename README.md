@@ -13,6 +13,8 @@ A real-time Bitcoin ( or any other crypto ) market monitoring tool using the Coi
 
 ## 📦 Requirements
 
+Tested on Windows 11 24H2, to my knowledge it should work fine on Older Windows Versions, Mac and Linux.
+Python 3.6+
 Install the dependencies using pip:
 
 ```bash
