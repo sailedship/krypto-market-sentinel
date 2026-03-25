@@ -5,7 +5,7 @@ import requests
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 from colorama import init, Fore, Style
 import matplotlib.pyplot as plt
-version=1.0
+version=1.1
 print("Krypto-Sentinel by sailedship. Version:", version)
 init(autoreset=True)
 datetime_at_start=datetime.now()
