@@ -12,10 +12,10 @@ datetime_at_start=datetime.now()
 symbol = input("Enter a 3-letter cryptocurrency code in capital letters e.g. BTC for Bitcoin, ETH for Ethereum, SOL for Solana, BNB for Build and Build (Binance) ").upper()
 answer = input("Would you like to save data from different instances in different files or same files? Type D for different files. Type S for same files.")
 if answer == 'D':
-    print("Preference saved")
+    print("Preference saved to save to different files.")
     csv_file = f"{symbol.lower()}_prices_starting_from{datetime.now().strftime('%Y-%m-%d')}.csv"
-if answer == 'S':
-    print("Preference saved")
+else:
+    print("Preference saved to save to same file.")
     csv_file = f"{symbol.lower()}_prices.csv"
 print(f"\nTracking {symbol} to USD...")
 
